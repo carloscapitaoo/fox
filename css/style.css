@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-:root {
+ :root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -355,7 +355,7 @@ progress {
     -webkit-appearance: none;
 }
 
-::-webkit-file-upload-button {
+ ::-webkit-file-upload-button {
     font: inherit;
     -webkit-appearance: button;
 }
@@ -10927,13 +10927,13 @@ a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    color: #fd5f00;
+    color: #00f1fd;
 }
 
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #fd5f00;
+    color: #00d7fd;
     outline: none !important;
 }
 
@@ -10976,7 +10976,7 @@ h5,
 }
 
 .topper .icon span {
-    color: #fd5f00;
+    color: #00f1fd;
     font-size: 20px;
 }
 
@@ -11188,7 +11188,7 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.active>a {
-    color: #fd5f00;
+    color: #32c5cc;
 }
 
 @media (max-width: 991.98px) {
@@ -11416,7 +11416,7 @@ h5,
     height: 10px;
     margin: 5px;
     border-radius: 50%;
-    background: #e6e6e6;
+    background: #2ecfba;
     position: relative;
 }
 
@@ -11619,7 +11619,7 @@ h5,
     height: 10px;
     margin: 5px;
     border-radius: 50%;
-    background: #fd5f00;
+    background: #00ecfd;
 }
 
 .owl-carousel.home-slider .owl-dots .owl-dot.active {
@@ -11679,40 +11679,40 @@ h5,
 }
 
 .btn.btn-primary {
-    background: #fd5f00;
-    border: 1px solid #fd5f00;
+    background: hsl(182, 88%, 52%);
+    border: 1px solid hsl(180, 100%, 50%);
     color: #fff;
 }
 
 .btn.btn-primary:hover {
-    border: 1px solid #fd5f00;
+    border: 1px solid hsl(182, 100%, 50%);
     background: transparent;
-    color: #fd5f00;
+    color: #00f5fd;
 }
 
 .btn.btn-primary.btn-outline-primary {
-    border: 1px solid #fd5f00;
+    border: 1px solid #00ecfd;
     background: transparent;
-    color: #fd5f00;
+    color: #00fdf0;
 }
 
 .btn.btn-primary.btn-outline-primary:hover {
     border: 1px solid transparent;
-    background: #fd5f00;
+    background: #00dffd;
     color: #fff;
 }
 
 .btn.btn-white {
     background: #fff;
     border: 1px solid #fff;
-    color: #fd5f00;
+    color: #00fdfd;
 }
 
 .btn.btn-white:hover,
 .btn.btn-white:focus,
 .btn.btn-white:active {
     border: 1px solid #fff;
-    color: #fd5f00;
+    color: #00dffd;
 }
 
 .btn.btn-white.btn-outline-white {
@@ -11731,7 +11731,7 @@ h5,
 .btn.btn-white.btn-outline-white:active {
     background: #fff;
     border-color: #fff;
-    color: #fd5f00;
+    color: #00fdfd;
 }
 
 .btn.btn-secondary {
@@ -11775,7 +11775,7 @@ h5,
 
 .btn-custom {
     font-weight: 500;
-    color: #ca4c00;
+    color: #00fdfd;
     border-bottom: 4px solid #ff6b12;
 }
 
@@ -11857,7 +11857,7 @@ h5,
     position: relative;
     width: 80px;
     height: 80px;
-    background: #fd5f00;
+    background: #00fdfd;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -11914,7 +11914,7 @@ h5,
 
 .course .img {
     width: 100%;
-    height: 300px;
+    height: 200px;
 }
 
 @media (max-width: 991.98px) {
@@ -12233,7 +12233,7 @@ textarea.form-control {
 }
 
 .bg-primary {
-    background: #fd5f00 !important;
+    background: #00fdfd !important;
 }
 
 .about-author .desc h3 {
