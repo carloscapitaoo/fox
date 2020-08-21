@@ -580,34 +580,34 @@ pre code {
 }
 
 .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 95%;
+    padding-right: 0px;
+    padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
 }
 
 @media (min-width: 576px) {
     .container {
-        max-width: 540px;
+        max-width: 556px;
     }
 }
 
 @media (min-width: 768px) {
     .container {
-        max-width: 720px;
+        max-width: 746px;    
     }
 }
 
 @media (min-width: 992px) {
     .container {
-        max-width: 960px;
+        max-width: 962px;    
     }
 }
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1140px;
+        max-width: 1200px;
     }
 }
 
@@ -11482,7 +11482,7 @@ h5,
 }
 
 .fundo-banner-capition {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
