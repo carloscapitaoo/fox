@@ -169,13 +169,13 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color:  #00b0af ;
     text-decoration: none;
     background-color: transparent;
 }
 
 a:hover {
-    color: #0056b3;
+    color: #00697a;
     text-decoration: underline;
 }
 
@@ -7229,14 +7229,14 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #007bff !important;
+    background-color: #00697a !important;
 }
 
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-    background-color: #0062cc !important;
+    background-color: #00b0af !important;
 }
 
 .bg-secondary {
@@ -10927,7 +10927,7 @@ a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    color: #00f1fd;
+    color: #00697a;
 }
 
 a:hover,
@@ -10976,7 +10976,7 @@ h5,
 }
 
 .topper .icon span {
-    color: #00f1fd;
+    color: #00697a;
     font-size: 20px;
 }
 
@@ -11228,7 +11228,7 @@ h5,
 
 .ftco-navbar-light.scrolled .nav-item.cta>a {
     color: #fff !important;
-    background: #fd5f00;
+    background: #00697a;
     border: none !important;
 }
 
@@ -11238,7 +11238,7 @@ h5,
 }
 
 .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-    border-color: #fd5f00;
+    border-color: #00697a;
 }
 
 @media (max-width: 991.98px) {
@@ -11385,7 +11385,7 @@ h5,
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     margin-top: -10px;
-    color: #fd5f00 !important;
+    color: #00697a !important;
     -moz-transition: all 0.7s ease;
     -o-transition: all 0.7s ease;
     -webkit-transition: all 0.7s ease;
@@ -11625,7 +11625,7 @@ h5,
     height: 10px;
     margin: 5px;
     border-radius: 50%;
-    background: #00ecfd;
+    background: #00697a;
 }
 
 .owl-carousel.home-slider .owl-dots .owl-dot.active {
@@ -11685,8 +11685,8 @@ h5,
 }
 
 .btn.btn-primary {
-    background: hsl(182, 88%, 52%);
-    border: 1px solid hsl(180, 100%, 50%);
+    background: #00697a;
+    border: 1px solid #00b0af;
     color: #fff;
 }
 
@@ -11863,7 +11863,7 @@ h5,
     position: relative;
     width: 80px;
     height: 80px;
-    background: #00fdfd;
+    background: #00697a;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -12239,7 +12239,7 @@ textarea.form-control {
 }
 
 .bg-primary {
-    background: #00fdfd !important;
+    background: #00697a !important;
 }
 
 .about-author .desc h3 {
