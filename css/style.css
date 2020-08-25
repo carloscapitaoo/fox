@@ -589,13 +589,13 @@ pre code {
 
 @media (min-width: 576px) {
     .container {
-        max-width: 556px;
+        max-width: 576px;
     }
 }
 
 @media (min-width: 768px) {
     .container {
-        max-width: 746px;    
+        max-width: 768px;    
     }
 }
 
