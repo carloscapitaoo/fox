@@ -581,8 +581,8 @@ pre code {
 
 .container {
     width: 95%;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -7332,7 +7332,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-    background-color: #343a40 !important;
+    background-color: #0d1128 !important;
 }
 
 a.bg-dark:hover,
@@ -11080,7 +11080,8 @@ h5,
 }
 
 .ftco-navbar-light {
-    background: transparent !important;
+    background-color: #0d1128;
+    width: 100%;
     z-index: 3;
     padding: 0;
 }
