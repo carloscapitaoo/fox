@@ -39,7 +39,6 @@
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -580,7 +579,7 @@ pre code {
 }
 
 .container {
-    width: 95%;
+    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -6506,7 +6505,7 @@ a.close.disabled {
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 0.3rem;
+    border-radius: 0px;
     outline: 0;
 }
 
@@ -11348,6 +11347,49 @@ h5,
     position: relative;
 }
 
+/*Notificações*/
+.ui-pnotify.stack-bar-top {
+    right: 0;
+    top: 0;
+}
+
+.ui-pnotify {
+    height: auto;
+    z-index: 9999;
+}
+
+
+
+.ui-pnotify.stack-bar-top .notification {
+    border-radius: 0;
+}
+
+.fa-check:before {
+    content: "\f00c";
+}
+.ui-pnotify .notification .ui-pnotify-icon {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 75px;
+    text-align: center;
+}
+
+.ui-pnotify-icon, .ui-pnotify-icon span {
+    display: block;
+    float: left;
+    margin-right: .2em;
+}
+
+.ui-pnotify-container {
+    height: 100%;
+    margin: 0;
+}
+
+.ui-pnotify.stack-bar-top .notification-success, .ui-pnotify.stack-bar-bottom .notification-success {
+    background: #47a447;
+}
+/*Inicio das notificações*/
 .hero-wrap .overlay {
     position: absolute;
     top: 0;
@@ -11356,7 +11398,7 @@ h5,
     bottom: 0;
     content: '';
     opacity: .3;
-    background: #f1453d;
+    background: #00697a;
 }
 
 .hero-wrap.hero-wrap-2 {
@@ -11684,7 +11726,7 @@ h5,
 }
 
 .bg-quarternary {
-    background: #f1453d;
+    background: #00697a;
 }
 
 .bg-fifth {
@@ -11794,15 +11836,15 @@ h5,
 }
 
 .btn.btn-quarternary {
-    background: #f1453d;
-    border: 1px solid #f1453d;
+    background: #00697a;
+    border: 1px solid #00697a;
     color: #fff;
 }
 
 .btn.btn-quarternary:hover,
 .btn.btn-quarternary:focus,
 .btn.btn-quarternary:active {
-    border: 1px solid #f1453d;
+    border: 1px solid #00697a;
     color: #fff;
 }
 

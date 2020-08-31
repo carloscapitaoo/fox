@@ -3,6 +3,30 @@
      easing: 'slide'
  });
 
+ var stack_bar_top = {"dir1": "down", "dir2": "right", "push": "top", "spacing1": 0, "spacing2": 0};
+ $('#inscrever').click(function() {
+    var notice = new PNotify({
+        title: 'Veja o seu Email',
+        text: 'Obrigado por inscrever-se na Nossa Plataforma, verifique o seu Email para continuar a sua subcrição.',
+        type: 'success',
+        addclass: 'stack-bar-top',
+        stack: stack_bar_top,
+        width: "70%"
+    });
+});
+
+ var stack_bar_top_contacto = {"dir1": "down", "dir2": "right", "push": "top", "spacing1": 0, "spacing2": 0};
+ $('#contacto').click(function() {
+    var notice = new PNotify({
+        title: 'YetoÁfrica',
+        text: 'Obrigado por escreveres para nós.',
+        type: 'success',
+        addclass: 'stack-bar-top',
+        stack: stack_bar_top_contacto,
+        width: "70%"
+    });
+});
+
  (function($) {
 
      "use strict";
@@ -281,16 +305,5 @@
 
          fixedContentPos: false
      });
-
-
-     $('.appointment_date').datepicker({
-         'format': 'm/d/yyyy',
-         'autoclose': true
-     });
-
-     $('.appointment_time').timepicker();
-
-
-
 
  })(jQuery);
