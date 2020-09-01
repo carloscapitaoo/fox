@@ -80,86 +80,138 @@
                     <li class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
                     <li class="nav-item"><a href="courses.html" class="nav-link">Cursos</a></li>
                     <li class="nav-item"><a href="teacher.html" class="nav-link">Formadores</a></li>
-                    <li class="nav-item active"><a href="contact.html" class="nav-link">Contacto</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- END nav -->
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/estudo.jpg');">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row no-gutters slider-text align-items-center justify-content-center">
-                <div class="col-md-9 ftco-animate text-center">
-                    <h1 class="mb-2 bread">Contacte-nos</h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
-                                    class="ion-ios-arrow-forward"></i></a></span> <span>Contacto <i
-                                class="ion-ios-arrow-forward"></i></span></p>
+
+    <!--init container-->
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-lg-4">
+                <div class="card" style="width: 100%;">
+                    <img src="images/staff-1.jpg" class="card-img-top" alt="foto do perfil">
+                    <div class="card-body">
+                        <h5 class="card-title">Julião Domingos Panzo</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Email: juliao@hotmail.com</li>
+                        <li class="list-group-item">Idade: 23 anos</li>
+                        <li class="list-group-item">Endereço: hoji ya henda</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="col-md-8 col-sm-12 col-lg-8">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="true">Meu Perfil</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                            aria-controls="profile" aria-selected="false">Meus Cursos</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                            aria-controls="contact" aria-selected="false">Novidades</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="container py-4">
 
-    <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
-        <div class="container">
-            <div class="row d-flex align-items-stretch no-gutters">
-                <div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-                    <form action="#">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Seu Nome">
+                            <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
+                                <div class="container">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Nome Completo">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="date" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Nacionalidade">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="tel" class="form-control" placeholder="Telefone">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Seu Email">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control" placeholder="Senha">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="password" class="form-control" placeholder="Repete">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="button" value="Editar" class="btn btn-primary py-3 px-5">
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </section>
+
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Seu email">
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="container py-4">
+                            <h1>Meus Cursos</h1>
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Curso</th>
+                                            <th scope="col">Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Secrétariado Empresarial</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 25%;"
+                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Qual o assunto?">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="7" class="form-control"
-                                placeholder="Sua mensagem aqui..."></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="button" id="contacto"  value="mensagem" class="btn btn-primary py-3 px-5">
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-6 d-flex align-items-stretch my-5">
-                    <div class="container">
-                        <h2>Fale connosco</h2>
-                        <span>Não exite em nos contactar</span>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                                <div class="bg-light align-self-stretch box p-4 text-center">
-                                    <h3 class="mb-4">Endereço</h3>
-                                    <p>C 20, Kilamba, Luanda, ANGOLA</p>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="container py-4">
+                            <h1>novidades</h1>
+                            <h2 class="ftco-heading-2">Curso de Secretariado Administrativo</h2>
+                            <div class="block-21 mb-4 d-flex">
+                                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                                <div class="text">
+                                    <h3 class="heading"><a href="#">Desenvolva a sua competencia no ramo de secretaria.</a></h3>
+                                    <div class="meta">
+                                        <div><a href="#"><span class="icon-calendar"></span> June 27, 2019</a></div>
+                                        <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                        <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div class="bg-light align-self-stretch box p-4 text-center">
-                                    <h3 class="mb-4">Telefone</h3>
-                                    <p><a href="tel://1234567920">+244 222 719 987</a></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div class="bg-light align-self-stretch box p-4 text-center">
-                                    <h3 class="mb-4">Email</h3>
-                                    <p><a href="mailto:yetoafrica@gmail.com">yetoafrica@gmail.com</a></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div class="bg-light align-self-stretch box p-4 text-center">
-                                    <h3 class="mb-4">Website</h3>
-                                    <p><a href="#">www.yetoafrica.com</a></p>
-                                </div>
-                            </div>
-                        </div>                      
-                        
-                        
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!--finish container-->
 
     <!-- Modal -->
     <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -172,12 +224,12 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="perfil.html">
+                    <form action="#">
                         <div class="form-group">
-                            <input type="text" required class="form-control" placeholder="Email">
+                            <input type="text" class="form-control" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <input type="password" required class="form-control" placeholder="Senha">
+                            <input type="password" class="form-control" placeholder="Senha">
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary  px-4 py-3 mt-3">Logar</button>
@@ -220,14 +272,19 @@
                     <div class="ftco-footer-widget mb-5 ml-md-4">
                         <h2 class="ftco-heading-2">Categorias</h2>
                         <ul class="list-unstyled">
-                            <li><a href="courses.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Saúde</a></li>
-                            <li><a href="courses.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Tecnologia</a>
+                            <li><a href="courses.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Saúde</a>
                             </li>
-                            <li><a href="courses.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Empreendedorismo</a>
+                            <li><a href="courses.html"><span
+                                        class="ion-ios-arrow-round-forward mr-2"></span>Tecnologia</a>
                             </li>
-                            <li><a href="courses.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Administrativo</a>
+                            <li><a href="courses.html"><span
+                                        class="ion-ios-arrow-round-forward mr-2"></span>Empreendedorismo</a>
                             </li>
-                            <li><a href="courses.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Construção</a>
+                            <li><a href="courses.html"><span
+                                        class="ion-ios-arrow-round-forward mr-2"></span>Administrativo</a>
+                            </li>
+                            <li><a href="courses.html"><span
+                                        class="ion-ios-arrow-round-forward mr-2"></span>Construção</a>
                             </li>
                         </ul>
                     </div>
