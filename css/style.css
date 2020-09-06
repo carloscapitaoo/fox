@@ -679,6 +679,10 @@ pre code {
     margin-left: -15px;
 }
 
+.semantica{
+    display: none;
+}
+
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -11597,19 +11601,19 @@ h5,
     position: relative;
 }
 
-.owl-carousel.home-slider .slider-item .slider-text h1 {
+.owl-carousel.home-slider .slider-item .slider-text h1 h2 {
     font-size: 50px;
     color: #fff;
     line-height: 1.2;
     font-weight: 600;
 }
 
-.owl-carousel.home-slider .slider-item .slider-text h1 span {
+.owl-carousel.home-slider .slider-item .slider-text h1 h2 span {
     display: block;
 }
 
 @media (max-width: 991.98px) {
-    .owl-carousel.home-slider .slider-item .slider-text h1 {
+    .owl-carousel.home-slider .slider-item .slider-text h1 h2 {
         font-size: 40px;
     }
 }
