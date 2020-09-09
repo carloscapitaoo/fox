@@ -24,7 +24,6 @@
 
  var stack_bar_top_contacto = {"dir1": "down", "dir2": "right", "push": "top", "spacing1": 0, "spacing2": 0};
  $("input[value='Confirmar']").click(function() {
-    $('#pagar').modal('hide')
     var notice = new PNotify({
         title: 'YetoÁfrica',
         text: 'Obrigado por escreveres para nós.',
