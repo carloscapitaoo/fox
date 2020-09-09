@@ -22,6 +22,8 @@
     });
 });
 
+
+   
  var stack_bar_top_contacto = {"dir1": "down", "dir2": "right", "push": "top", "spacing1": 0, "spacing2": 0};
  $("input[value='Confirmar']").click(function() {
     var notice = new PNotify({
