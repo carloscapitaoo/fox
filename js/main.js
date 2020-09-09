@@ -3,6 +3,8 @@
      easing: 'slide'
  });
 
+ $("button[data-target='#pagar']").on('click', function(){$('#pagar').modal('show')})
+
  $('#myTab a').on('click', function (e) {
     e.preventDefault()
     $(this).tab('show')
@@ -21,7 +23,8 @@
 });
 
  var stack_bar_top_contacto = {"dir1": "down", "dir2": "right", "push": "top", "spacing1": 0, "spacing2": 0};
- $('#contacto').click(function() {
+ $("input[value='Confirmar']").click(function() {
+    $('#pagar').modal('hide')
     var notice = new PNotify({
         title: 'YetoÁfrica',
         text: 'Obrigado por escreveres para nós.',
