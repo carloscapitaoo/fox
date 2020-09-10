@@ -11113,6 +11113,23 @@ h5,
     width: 100%;
 }
 
+/*Ideias de melhorias da medias query*/
+ /* Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap
+
+ Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+ Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+ Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) { ... }*/
+/* fim das ideias da medias query */
+
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
         background: #0d1128 !important;
@@ -11160,8 +11177,8 @@ h5,
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0em;
+        padding-right: 0em;
         padding-top: .9rem;
         padding-bottom: .9rem;
         color: rgba(255, 255, 255, 0.7);
