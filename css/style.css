@@ -5,6 +5,49 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+ .gototop a {
+    width: 50px;
+    height: 50px;
+    display: table;
+    background: black;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.gototop.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.gototop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.gototop a {
+    width: 50px;
+    height: 50px;
+    display: table;
+    background: black;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
  :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -613,8 +656,18 @@ pre code {
 
 @media (min-width: 576px) {
     .container {
-        max-width: 576px;
+        max-width: 540px;
     }
+
+    .dropdown-menu-sm-left {
+        right: auto;
+        left: 0;
+    }
+    .dropdown-menu-sm-right {
+        right: 0;
+        left: auto;
+    }
+    
 }
 
 @media (min-width: 768px) {
@@ -3567,16 +3620,6 @@ input[type="button"].btn-block {
     left: auto;
 }
 
-@media (min-width: 576px) {
-    .dropdown-menu-sm-left {
-        right: auto;
-        left: 0;
-    }
-    .dropdown-menu-sm-right {
-        right: 0;
-        left: auto;
-    }
-}
 
 @media (min-width: 768px) {
     .dropdown-menu-md-left {
@@ -11116,10 +11159,22 @@ h5,
 /*Ideias de melhorias da medias query*/
  /* Extra small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap
+*/
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .ftco-counter .block-18 {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 1px;
+    }
 
- Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
+    .ftco-section {
+        padding: 0;
+        margin: 1px;
+        position: relative;
+    }
+ }
+/*
  Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }
 
