@@ -1,0 +1,21 @@
+#sortable {
+    color: #fff;
+    
+}
+
+#sortable li {
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: #00697a;
+    margin-bottom: 1px;
+    list-style: none;    
+}
+
+
+#sortable .ui-state-default {
+    cursor: move;
+}
+
+.icon-plus{
+    cursor: pointer;
+}
