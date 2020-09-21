@@ -10,6 +10,11 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- include summernote css/js -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/animate.css">
     <link rel="icon" href="images/fiveicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -130,7 +135,56 @@
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="container py-4">
 
-                            <h1>Area do perfil</h1>
+                            <h1>Sobre</h1>
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                        aria-orientation="vertical">
+                                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill"
+                                            href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                                            aria-selected="true">Trabalho e Formacao</a>
+                                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                            href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                                            aria-selected="false">Contacto</a>
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <div class="tab-content" id="v-pills-tabContent">
+                                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                            aria-labelledby="v-pills-home-tab">
+                                            <div class="card my-2" style="width: 18rem;">
+                                                <div class="card-body">
+                                                    <h6 class="card-subtitle mb-2 text-muted">Trabalho</h6>
+                                                    <p class="card-text">Sub-direitor da Sinfotec.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card my-2" style="width: 18rem;">
+                                                <div class="card-body">
+                                                    <h6 class="card-subtitle mb-2 text-muted">Faculdade</h6>
+                                                    <p class="card-text">Sub-direitor da Sinfotec.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                            aria-labelledby="v-pills-profile-tab">
+                                            <div class="card my-2" style="width: 18rem;">
+                                                <div class="card-body">
+                                                    <h6 class="card-subtitle mb-2 text-muted">Informacoes de Contacto</h6>
+                                                    <p class="card-text">Sub-direitor da Sinfotec.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card my-2" style="width: 18rem;">
+                                                <div class="card-body">
+                                                    <h6 class="card-subtitle mb-2 text-muted">Sites e ligações sociais</h6>
+                                                    <p class="card-text">Sub-direitor da Sinfotec.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
@@ -163,19 +217,19 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-md-4 form-group">
-                                                <input type="text" name="nome_curso" id="nome_curso"
+                                                <input type="text" name="nome_curso" id="curso_sigla"
                                                     class="form-control" placeholder="Sigla do Curso"
                                                     aria-describedby="helpId">
                                                 <small id="helpI" class="text-muted">Ex.: C.G</small>
                                             </div>
                                             <div class="col-md-4 form-group">
-                                                <input type="number" name="nome_curso" id="nome_curso"
+                                                <input type="number" name="nome_curso" id="preco_curso"
                                                     class="form-control" placeholder="Preço do Curso"
                                                     aria-describedby="helpId">
                                                 <small id="helpI" class="text-muted">Ex.: 1 000. 00</small>
                                             </div>
                                             <div class="col-md-4 form-group">
-                                                <input type="number" name="nome_curso" id="nome_curso"
+                                                <input type="number" name="nome_curso" id="duracao_curso"
                                                     class="form-control" placeholder="Duração"
                                                     aria-describedby="helpId">
                                                 <small id="helpI" class="text-muted">Ex.: 1 Semana</small>
@@ -183,15 +237,14 @@
                                         </div>
                                         <div class="form-group">
                                             <div class="input-group mb-3">
-                                                <select class="custom-select" id="inputGroupSelect02">
+                                                <select class="custom-select" id="categoria">
                                                     <option selected>Categória</option>
                                                     <option value="1">Economia</option>
                                                     <option value="2">Informatica</option>
                                                     <option value="3">Artes</option>
                                                 </select>
                                                 <div class="input-group-append">
-                                                    <label class="input-group-text"
-                                                        for="inputGroupSelect02">Categória</label>
+                                                    <label class="input-group-text" for="categoria">Categória</label>
                                                 </div>
                                             </div>
                                             <small id="helpI" class="text-muted">Ex.: Economia</small>
@@ -212,15 +265,14 @@
                                     <form action="#" method="post">
                                         <div class="form-group">
                                             <div class="input-group mb-3">
-                                                <select class="custom-select" id="inputGroupSelect02">
+                                                <select class="custom-select" id="curso">
                                                     <option selected>Curso</option>
                                                     <option value="1">Economia</option>
                                                     <option value="2">Informatica</option>
                                                     <option value="3">Artes</option>
                                                 </select>
                                                 <div class="input-group-append">
-                                                    <label class="input-group-text"
-                                                        for="inputGroupSelect02">Curso</label>
+                                                    <label class="input-group-text" for="curso">Curso</label>
                                                 </div>
                                             </div>
                                             <small id="helpI" class="text-muted">Ex.: Qual dos Cursos vai adicionar o
@@ -228,14 +280,14 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6 form-group">
-                                                <input type="number" min="1" name="nome_curso" id="nome_curso"
+                                                <input type="number" min="1" name="nome_curso" id="numero_modulo"
                                                     class="form-control" placeholder="Número do Modulo"
                                                     aria-describedby="helpId">
                                                 <small id="helpI" class="text-muted">Ex.: 1</small>
 
                                             </div>
                                             <div class="col-md-6 form-group">
-                                                <input type="text" name="nome_curso" id="nome_curso"
+                                                <input type="text" name="nome_curso" id="titulo_modulo"
                                                     class="form-control" placeholder="Titulo do Modulo"
                                                     aria-describedby="helpId">
                                                 <small id="helpI" class="text-muted">Ex.: Qual o titulo do
@@ -253,7 +305,7 @@
                                     <div class="row">
                                         <div class="col-md-7 offset-md-2">
                                             <ul id="sortable">
-                                                <li class="ui-state-default"> <span  class="icon-plus"></span>&nbsp;
+                                                <li class="ui-state-default"> <span class="icon-plus"></span>&nbsp;
                                                     Modulo 1</li>
                                                 <li class="ui-state-default">
                                                     <span class="icon-plus"></span>
@@ -276,13 +328,39 @@
                                 </div>
                                 <div class="tab-pane fade" id="pills-contact" role="tabpanel"
                                     aria-labelledby="pills-contact-tab">
-                                    <h1>Aulas</h1>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <form action="#" method="post">
+                                                <div class="form-group">
+                                                    <input type="text" name="aula_titulo" id="aula_titulo"
+                                                        class="form-control" placeholder="Sumário"
+                                                        aria-describedby="helpId">
+                                                    <small id="aula_titulo" class="text-muted">Ex.: Sumário da
+                                                        Aula</small>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="time" name="aula_duracao" id="aula_duracao"
+                                                        class="form-control" aria-describedby="helpId">
+                                                    <small id="aula_duracao" class="text-muted">Ex.: Duracao da
+                                                        Aula</small>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" name="aula_descricao" id="aula_descricao"
+                                                        class="form-control" placeholder="Objectivo da Aula"
+                                                        aria-describedby="helpId">
+                                                    <small id="aula_descricao" class="text-muted">Ex.: Qual o Objectivo
+                                                        da Aula</small>
+                                                </div>
+                                                <textarea class="summernote">Insira aqui a Materia</textarea>
+                                                <div class="form-group text-center">
+                                                    <button type="submit" class="btn btn-lg btn-primary">Salvar</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <!-- fim modulos e aulas do curso -->
-
-
-
                         </div>
                     </div>
                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
@@ -297,35 +375,35 @@
                                     </select>
                                 </div>
                                 <div class="col-md-6">
-                                    <p class="text-right" >Alunos: <span>3</span> Valor Total: <span>6 000 AKZ</span></p> 
+                                    <p class="text-right">Alunos: <span>3</span> Valor Total: <span>6 000 AKZ</span></p>
                                 </div>
                             </div>
                             <table class="table table-hover">
                                 <thead>
-                                  <tr>
-                                    <th scope="col">Nome Completo</th>
-                                    <th scope="col">Curso Comprado</th>
-                                    <th scope="col">Valor Pago</th>
-                                  </tr>
+                                    <tr>
+                                        <th scope="col">Nome Completo</th>
+                                        <th scope="col">Curso Comprado</th>
+                                        <th scope="col">Valor Pago</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
-                                  <tr>
-                                    <td>Paulo Gomes</td>
-                                    <td>Empreendedorismo</td>
-                                    <td>2 000 AKZ</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Apolinario Mateus</td>
-                                    <td>Marting Digital</td>
-                                    <td>2 000 AKZ</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Beatriz Gaspar</td>
-                                    <td>Contabilidade</td>
-                                    <td>2 000 AKZ</td>
-                                  </tr>
+                                    <tr>
+                                        <td>Paulo Gomes</td>
+                                        <td>Empreendedorismo</td>
+                                        <td>2 000 AKZ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Apolinario Mateus</td>
+                                        <td>Marting Digital</td>
+                                        <td>2 000 AKZ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Beatriz Gaspar</td>
+                                        <td>Contabilidade</td>
+                                        <td>2 000 AKZ</td>
+                                    </tr>
                                 </tbody>
-                              </table>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -389,7 +467,8 @@
                             <li class="ftco-animate"><a target="_blank"
                                     href="https://www.facebook.com/Yeto%C3%A1frica-118536836388833/?modal=admin_todo_tour"><span
                                         class="icon-facebook"></span></a></li>
-                            <li class="ftco-animate"><a target="_blank" href="https://www.instagram.com/yetoafrica/"><span
+                            <li class="ftco-animate"><a target="_blank"
+                                    href="https://www.instagram.com/yetoafrica/"><span
                                         class="icon-instagram"></span></a></li>
                         </ul>
                     </div>
@@ -455,6 +534,9 @@
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
