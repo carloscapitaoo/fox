@@ -601,6 +601,46 @@ mark,
     line-height: 1;
 }
 
+.sub-total{
+    font-size: 18px;
+    line-height: 1.22222;
+    font-family: Poppins-Regular;
+}
+.tamanho-1{
+    width: 34.5%;
+}
+
+.tamanho-2{
+    width: 65.5%;
+}
+
+.imagem-tabela{
+    width: 60px;
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.checkout_items {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 12px;
+    left: 22px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fe4c50;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
 .figure-caption {
     font-size: 90%;
     color: #6c757d;
@@ -11864,6 +11904,10 @@ h5,
     background: #00697a;
     border: 1px solid #00b0af;
     color: #fff;
+}
+
+.btn {    
+    font-size: 14px;
 }
 
 .btn.btn-primary:hover {
