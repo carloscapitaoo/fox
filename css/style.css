@@ -11118,6 +11118,10 @@ h5,
     border-radius: 50%;
 }
 
+.glyphicon{
+    font-size: 20px;
+}
+
 .topper .icon span {
     color: #00697a;
     font-size: 20px;
