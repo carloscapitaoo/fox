@@ -1,0 +1,45 @@
+.side-aula {
+    background-color: #3c4452;
+    color: #ffffff;
+    min-height: 450px;
+    width: 20%;
+    margin-left: -20%;
+}
+
+.side-menu {
+    position: relative;
+    top: 0;
+    min-height: 450px;
+    transition: all 500ms ease;
+}
+
+#controlo-toggle:checked + section .side-aula {
+    background-color: #c78190;
+    color: #ffffff;
+    margin-left: 0;
+}
+
+/* estilização do video */
+/*VIDEO*/
+.video{width: 100%; margin: 0;}
+.video-small{width: 40%; margin: 0 30%;}
+.video-medium{width: 60%; margin: 0 10%;}
+.video-large{width: 75%; margin: 0 5%;}
+
+.video-left {
+    float: left;
+}
+
+.video-right {
+    float: right;
+}
+
+.main_video{margin-bottom: 24px; padding-bottom: 24px; background: url(../img/video_shadow.png) bottom center no-repeat;}
+
+/*vídeos de navegação*/
+.main_videos h1{margin-bottom: 30px;}
+.main_videos .box{margin-bottom: 30px;}
+.main_videos .box_video_title{font-size: 1em; font-weight: normal; margin: 0;}
+.main_videos .thumb{float: left; position: relative; margin-bottom: 10px;}
+.main_videos .video_play{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.2) url(../img/play-video.png) left 10px bottom 10px no-repeat; background-size: auto 50%; cursor: pointer;}
+.main_videos .video_play:hover{background-color: rgba(207,72,35,0.5);}

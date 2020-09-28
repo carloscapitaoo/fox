@@ -3,6 +3,10 @@
      easing: 'slide'
  });
 
+ $('.curso-frequentar').on('click', function(){
+    window.location.href = $(this).attr('data-url')
+    //  alert($(this).attr('data-url'))
+ })
  
  $('#myTab a').on('click', function (e) {
     e.preventDefault()
