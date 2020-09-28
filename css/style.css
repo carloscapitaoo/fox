@@ -11127,6 +11127,11 @@ h5,
     font-size: 20px;
 }
 
+.curso-frequentar {
+    cursor: pointer;
+}
+
+
 .topper .text {
     color: rgba(0, 0, 0, 0.7);
     padding-left: 15px;
